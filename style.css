@@ -106,15 +106,19 @@ main{
 .imagenes_general{
     display: flex;
     flex-direction: column;
-    width: 20%;
-    padding: 5px;
-    gap: 5px;
+    width: 23%;
+    padding:5px;
+    gap: 10px;
 }
 
-
+.btn_img{
+    width: 100%;
+    height: 100%;
+}
 /*Aqui ajusto la imgen al tamaño del div*/
 .btn_img img{
-    object-fit: cover;
+    /*object-fit:cover;*/
+    background-size: cover;
     width:100%;
     height:100%;
 }
@@ -128,7 +132,7 @@ main{
 .btn_img:hover a {
     position:relative;
     bottom:90%;
-    left:72%;
+    left:65%;
     background-color:#8F0005;
     border-radius:25px;
     color:white;
